@@ -12,7 +12,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Default.WebApp.Template.Client\Default.WebApp.Template.Client.csproj" />
+    <ProjectReference Include="..\Default.WebApp.Template.Infrastrucutre\Default.WebApp.Template.Infrastrucutre.csproj" />
     <ProjectReference Include="..\Default.WebApp.Template.Shared\Default.WebApp.Template.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Common\" />
+    <Folder Include="Composition\" />
   </ItemGroup>
 
 </Project>
