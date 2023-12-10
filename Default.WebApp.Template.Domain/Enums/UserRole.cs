@@ -3,7 +3,7 @@
     public enum UserRole
     {
         None = 0,
-        Member = 1,
+        User = 1,
         Admin = 2
     }
 }
