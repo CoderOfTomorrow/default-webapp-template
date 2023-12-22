@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Default.WebApp.Template.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Default.WebApp.Template.AcceptanceTests", "Default.WebApp.Template.AcceptanceTests\Default.WebApp.Template.AcceptanceTests.csproj", "{89D1594A-319D-4C58-B8AD-B8F2C663D6E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.WebApp.Template.Infrastrucutre", "Default.WebApp.Template.Infrastrucutre\Default.WebApp.Template.Infrastrucutre.csproj", "{F37D94E7-C647-4266-8E28-35DD7731ED81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Default.WebApp.Template.Infrastrucutre", "Default.WebApp.Template.Infrastrucutre\Default.WebApp.Template.Infrastrucutre.csproj", "{F37D94E7-C647-4266-8E28-35DD7731ED81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.WebApp.Template.Application", "Default.WebApp.Template.Application\Default.WebApp.Template.Application.csproj", "{1CC151D1-49F8-4254-86C7-0EB371AD56A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Default.WebApp.Template.Application", "Default.WebApp.Template.Application\Default.WebApp.Template.Application.csproj", "{1CC151D1-49F8-4254-86C7-0EB371AD56A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,27 @@
+﻿@page "/login"
+@layout AuthLayout
+
+<MudGrid Class="justify-md-center">
+    <MudItem sm="5">
+        <MudCard>
+            <MudCardHeader>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.h5">Login</MudText>
+                </CardHeaderContent>
+            </MudCardHeader>
+            <MudCardContent Class="justify-md-center">
+                <MudTextField T="string" Label="Username" />
+                <MudTextField T="string" Label="Password" InputType="InputType.Password" />
+            </MudCardContent>
+        </MudCard>
+        <MudPaper Class="pa-4 mt-4">
+            <MudButton Variant="Variant.Filled" Color="Color.Secondary" DisableElevation="true" Class="mx-2">Login</MudButton>
+            <MudButton Href="/register" Variant="Variant.Filled" Color="Color.Primary" DisableElevation="true">Register</MudButton>
+            <MudButton Href="/" Variant="Variant.Filled" Color="Color.Primary" DisableElevation="true" Class="mx-2">Home</MudButton>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+
+@code {
+}
